@@ -1,0 +1,24 @@
+{
+  "name": "restapiimplementation",
+  "version": "1.0.0",
+  "description": "Rest Api Implementation",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devrajj/RestApiImplementation.git"
+  },
+  "author": "DEVRAJ SEN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devrajj/RestApiImplementation/issues"
+  },
+  "homepage": "https://github.com/devrajj/RestApiImplementation#readme",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  }
+}
