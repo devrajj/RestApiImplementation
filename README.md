@@ -1,10 +1,11 @@
 ### To install packages
 
 ```
+Before running the project run below command
 npm i 
 ```
 
-## Please install mysql if not installed
+## Install mysql if not installed
 
 ```
 brew install mysql@5.7
