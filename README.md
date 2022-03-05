@@ -4,10 +4,18 @@
 npm i 
 ```
 
+## Please install mysql if not installed
+
+```
+brew install mysql@5.7
+echo 'export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"' >> ~/.bash_profile
+source ~/.bash_profile
+brew services start mysql@5.7
+mysql_secure_installation
+```
+
 ### Please Note:
 
 ```
-1. This Project is about a simple rest api which can be tested using POSTMAN
-2. Since only CRUD needed to be checked therefore static data is created in server.js 
-3. No Client Side is created
+This Project is about a simple rest api which can be tested using POSTMAN as no Client Side is created
 ```
